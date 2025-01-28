@@ -4,22 +4,22 @@ import matplotlib.pyplot as plt
 from scipy.signal import find_peaks
 
 elements = {
-    'Fe³⁺ (Positive Cation)': [480, 530],
-    'Fe²⁺ (Positive Cation)': [510, 560],
-    'Mn²⁺ (Positive Cation)': [520, 580],
-    'Cu²⁺ (Positive Cation)': [600, 700],
-    'Ni²⁺ (Positive Cation)': [395, 430],
-    'Cr³⁺ (Positive Cation)': [570, 620],
-    'Co²⁺ (Positive Cation)': [490, 510],
-    'Pb²⁺ (Positive Cation)': [510],
-    'MnO₄⁻ (Negative Anion)': [525],
-    'Cr₂O₇²⁻ (Negative Anion)': [450, 500],
-    'Ti³⁺ (Positive Cation)': [500, 600],
-    'CuCl₄²⁻ (Negative Anion)': [600, 700],
-    'AsO₄³⁻ (Negative Anion)': [500, 600],
-    'NO₂⁻ (Negative Anion)': [450, 500],
-    'I⁻ (Negative Anion)': [550, 590],
-    'SO₄²⁻ (Negative Anion)': [500, 600]
+    'Fe³⁺': [480, 530],
+    'Fe²⁺': [510, 560],
+    'Mn²⁺': [520, 580],
+    'Cu²⁺': [600, 700],
+    'Ni²⁺': [395, 430],
+    'Cr³⁺': [570, 620],
+    'Co²⁺': [490, 510],
+    'Pb²⁺': [510],
+    'MnO₄⁻': [525],
+    'Cr₂O₇²⁻': [450, 500],
+    'Ti³⁺': [500, 600],
+    'CuCl₄²⁻': [600, 700],
+    'AsO₄³⁻': [500, 600],
+    'NO₂⁻': [450, 500],
+    'I⁻': [550, 590],
+    'SO₄²⁻': [500, 600]
 }
 
 def check(elements, peaks, thresh):
